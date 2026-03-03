@@ -7,6 +7,7 @@ import CTABanner from "@/components/CTABanner";
 import GallerySection from "@/components/GallerySection";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import VideoTestimonialsSection from "@/components/VideoTestimonialsSection";
 import LocalAreaSection from "@/components/LocalAreaSection";
 import FAQSection from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
@@ -25,6 +26,7 @@ const Index = () => {
       <GallerySection />
       <WhyChooseUs />
       <TestimonialsSection />
+      <VideoTestimonialsSection />
       <LocalAreaSection />
       <FAQSection />
       <ContactSection />
