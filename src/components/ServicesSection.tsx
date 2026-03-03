@@ -1,10 +1,13 @@
 const services = [
-  { title: "Bridal Mehndi in Delhi", desc: "Full bridal mehndi with intricate detailing up to elbows and knees.", price: "₹5,000", emoji: "👰" },
-  { title: "Engagement Mehndi", desc: "Beautiful engagement-ready designs for the ring ceremony.", price: "₹2,500", emoji: "💍" },
-  { title: "Arabic Mehndi Designs", desc: "Elegant flowing Arabic patterns with bold strokes.", price: "₹1,500", emoji: "🌿" },
-  { title: "Rajasthani Bridal Mehndi", desc: "Traditional Rajasthani designs with mirror & peacock motifs.", price: "₹4,500", emoji: "🦚" },
-  { title: "3D Mehndi", desc: "Stunning three-dimensional mehndi art that stands out.", price: "₹3,000", emoji: "✨" },
-  { title: "Festival Mehndi", desc: "Quick & beautiful designs for Karva Chauth, Diwali & more.", price: "₹500", emoji: "🪔" },
+  { title: "Bridal Mehndi", desc: "Full bridal mehndi with intricate detailing up to elbows and knees. The perfect design for your special day.", price: "₹5,000", emoji: "👰" },
+  { title: "Engagement Mehndi", desc: "Beautiful engagement-ready designs for the ring ceremony that leave a lasting impression.", price: "₹2,500", emoji: "💍" },
+  { title: "Guest Mehndi", desc: "Elegant designs for family & guests — quick, beautiful, and event-ready.", price: "₹500", emoji: "👨‍👩‍👧" },
+  { title: "Karva Chauth Mehndi", desc: "Traditional Karva Chauth designs with moon, jali & love motifs.", price: "₹1,000", emoji: "🌙" },
+  { title: "Traditional & Modern Art Mehndi", desc: "A fusion of classic Indian patterns with contemporary artistic flair.", price: "₹2,000", emoji: "🎨" },
+  { title: "Portrait or Theme Mehndi", desc: "Custom portrait, couple, or theme-based mehndi — truly one of a kind.", price: "₹3,500", emoji: "🖼️" },
+  { title: "Stylish & Designer Mehndi", desc: "Trendy, Instagram-worthy designer patterns for the modern bride.", price: "₹2,000", emoji: "✨" },
+  { title: "Jain Tapasya Mehndi", desc: "Sacred Jain tapasya mehndi designs crafted with devotion and precision.", price: "₹1,500", emoji: "🙏" },
+  { title: "Arabic Mehndi", desc: "Elegant flowing Arabic patterns with bold strokes and open spaces.", price: "₹1,500", emoji: "🌿" },
 ];
 
 const ServicesSection = () => (
