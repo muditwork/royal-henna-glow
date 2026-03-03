@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import ScrollFadeIn from "@/components/ScrollFadeIn";
 
 const faqs = [
   { q: "When should bridal mehndi be applied?", a: "Bridal mehndi should ideally be applied one day before the wedding ceremony. This gives the henna enough time to develop a deep, rich stain for the best color on your special day." },
@@ -16,10 +17,12 @@ const faqs = [
 const FAQSection = () => (
   <section className="section-padding bg-card">
     <div className="container mx-auto max-w-3xl">
-      <div className="text-center mb-12">
-        <p className="font-body text-accent tracking-[0.25em] uppercase text-xs mb-3">FAQs</p>
-        <h2 className="section-heading">Frequently Asked Questions</h2>
-      </div>
+      <ScrollFadeIn>
+        <div className="text-center mb-12">
+          <p className="font-body text-accent tracking-[0.25em] uppercase text-xs mb-3">FAQs</p>
+          <h2 className="section-heading">Frequently Asked Questions</h2>
+        </div>
+      </ScrollFadeIn>
 
       <Accordion type="single" collapsible className="space-y-3">
         {faqs.map((f, i) => (

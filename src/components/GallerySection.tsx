@@ -2,6 +2,7 @@ import { useState } from "react";
 import { X } from "lucide-react";
 import heroImg from "@/assets/hero-bridal.jpg";
 import aboutImg from "@/assets/about-bridal.jpg";
+import ScrollFadeIn from "@/components/ScrollFadeIn";
 
 const categories = ["All", "Bridal", "Arabic", "Rajasthani", "3D", "Festival"];
 
@@ -25,9 +26,11 @@ const GallerySection = () => {
   return (
     <section id="gallery" className="section-padding mehndi-pattern-bg">
       <div className="container mx-auto text-center">
+      <ScrollFadeIn>
         <p className="font-body text-accent tracking-[0.25em] uppercase text-xs mb-3">Our Work</p>
         <h2 className="section-heading mx-auto mb-2">Mehndi Design Gallery</h2>
         <p className="section-subheading mx-auto mb-8">188+ Designs Available — Browse Our Best Work</p>
+      </ScrollFadeIn>
 
         {/* Filter tabs */}
         <div className="flex flex-wrap justify-center gap-2 mb-10">
