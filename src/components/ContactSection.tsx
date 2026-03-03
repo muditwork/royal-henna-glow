@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import ScrollFadeIn from "@/components/ScrollFadeIn";
 
 const ContactSection = () => {
   const [form, setForm] = useState({ name: "", phone: "", event: "", date: "", message: "" });
@@ -13,10 +14,12 @@ const ContactSection = () => {
   return (
     <section id="contact" className="section-padding mehndi-pattern-bg">
       <div className="container mx-auto">
-        <div className="text-center mb-12">
-          <p className="font-body text-accent tracking-[0.25em] uppercase text-xs mb-3">Get in Touch</p>
-          <h2 className="section-heading">Book Your Bridal Mehndi</h2>
-        </div>
+        <ScrollFadeIn>
+          <div className="text-center mb-12">
+            <p className="font-body text-accent tracking-[0.25em] uppercase text-xs mb-3">Get in Touch</p>
+            <h2 className="section-heading">Book Your Bridal Mehndi</h2>
+          </div>
+        </ScrollFadeIn>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Contact Info */}

@@ -10,18 +10,23 @@ const services = [
   { title: "Arabic Mehndi", desc: "Elegant flowing Arabic patterns with bold strokes and open spaces.", price: "₹1,500", emoji: "🌿" },
 ];
 
+import ScrollFadeIn from "@/components/ScrollFadeIn";
+
 const ServicesSection = () => (
   <section id="services" className="section-padding bg-card">
     <div className="container mx-auto text-center">
-      <p className="font-body text-accent tracking-[0.25em] uppercase text-xs mb-3">Our Services</p>
-      <h2 className="section-heading mx-auto mb-4">Premium Mehndi Services</h2>
-      <p className="section-subheading mx-auto mb-12">
-        From bridal to festive — each design crafted with love, tradition, and artistic perfection.
-      </p>
+      <ScrollFadeIn>
+        <p className="font-body text-accent tracking-[0.25em] uppercase text-xs mb-3">Our Services</p>
+        <h2 className="section-heading mx-auto mb-4">Premium Mehndi Services</h2>
+        <p className="section-subheading mx-auto mb-12">
+          From bridal to festive — each design crafted with love, tradition, and artistic perfection.
+        </p>
+      </ScrollFadeIn>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {services.map((s) => (
-          <div key={s.title} className="card-luxury p-6 text-left group">
+        {services.map((s, i) => (
+          <ScrollFadeIn key={s.title} delay={i * 0.08}>
+          <div className="card-luxury p-6 text-left group h-full">
             <span className="text-4xl mb-4 block">{s.emoji}</span>
             <h3 className="font-heading text-xl font-bold text-primary mb-2">{s.title}</h3>
             <p className="font-body text-foreground/70 text-sm mb-4 leading-relaxed">{s.desc}</p>
@@ -35,6 +40,7 @@ const ServicesSection = () => (
               Book Now
             </a>
           </div>
+          </ScrollFadeIn>
         ))}
       </div>
     </div>
