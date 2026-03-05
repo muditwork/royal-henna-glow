@@ -31,7 +31,7 @@ const Navbar = () => {
               {l.label}
             </a>
           ))}
-          <a href="tel:+919999999999" className="btn-maroon flex items-center gap-2 text-sm py-2 px-6">
+          <a href="tel:+919838984387" className="btn-maroon flex items-center gap-2 text-sm py-2 px-6">
             <Phone size={14} /> Call Now
           </a>
         </div>

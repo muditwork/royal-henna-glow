@@ -8,7 +8,7 @@ const ContactSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const msg = `Hi, I'm ${form.name}. I'd like to book mehndi for my ${form.event} on ${form.date}. ${form.message}`;
-    window.open(`https://wa.me/919999999999?text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://wa.me/919838984387?text=${encodeURIComponent(msg)}`, "_blank");
   };
 
   return (
@@ -27,7 +27,7 @@ const ContactSection = () => {
             <h3 className="font-heading text-2xl font-bold text-primary mb-6">Contact Details</h3>
             <div className="space-y-5">
               {[
-                { icon: Phone, label: "Phone", value: "+91 99999 99999", href: "tel:+919999999999" },
+                { icon: Phone, label: "Phone", value: "+91 98389 84387", href: "tel:+919838984387" },
                 { icon: Mail, label: "Email", value: "rjmehandiartist@gmail.com", href: "mailto:rjmehandiartist@gmail.com" },
                 { icon: MapPin, label: "Location", value: "Anand Vihar, Delhi NCR" },
                 { icon: Clock, label: "Available", value: "7 AM – 10 PM, All Days" },
