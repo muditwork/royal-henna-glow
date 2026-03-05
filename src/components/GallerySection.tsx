@@ -7,7 +7,7 @@ import ScrollFadeIn from "@/components/ScrollFadeIn";
 const categories = ["All", "Bridal", "Arabic", "Rajasthani", "3D", "Festival"];
 
 const galleryImages = [
-  { src: heroImg, cat: "Bridal", alt: "Bridal mehndi design Delhi" },
+  { src: "/lovable-uploads/226686e6-147f-4c60-91ee-6478a05470b9.jpg", cat: "Bridal", alt: "Bridal mehndi design Delhi" },
   { src: aboutImg, cat: "Bridal", alt: "Bridal henna art" },
   { src: heroImg, cat: "Arabic", alt: "Arabic mehndi design" },
   { src: aboutImg, cat: "Rajasthani", alt: "Rajasthani mehndi" },
