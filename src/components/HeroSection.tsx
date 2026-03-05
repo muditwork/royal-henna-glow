@@ -21,22 +21,22 @@ const HeroSection = () => {
           <span className="text-gold">in Delhi</span>
         </h1>
 
-        <p className="animate-fade-up-delay-2 font-body text-cream/80 text-sm md:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
+        <p className="animate-fade-up-delay-2 font-body text-sm md:text-lg max-w-2xl mx-auto mb-8 leading-relaxed text-white">
           Bridal Mehndi Specialist in Delhi NCR&nbsp;|&nbsp;15+ Years Experience&nbsp;|&nbsp;Dark Stain Guarantee
         </p>
 
         {/* Trust Badges */}
         <div className="animate-fade-up-delay-2 flex flex-wrap justify-center gap-4 md:gap-8 mb-10">
           {[
-            { icon: Star, text: "5-Star Rated" },
-            { icon: Camera, text: "188+ Designs" },
-            { icon: Home, text: "Doorstep Service" },
-          ].map(({ icon: Icon, text }) => (
-            <div key={text} className="flex items-center gap-2 text-gold-light text-sm md:text-base">
+          { icon: Star, text: "5-Star Rated" },
+          { icon: Camera, text: "188+ Designs" },
+          { icon: Home, text: "Doorstep Service" }].
+          map(({ icon: Icon, text }) =>
+          <div key={text} className="flex items-center gap-2 text-gold-light text-sm md:text-base">
               <Icon size={16} className="text-gold" />
               <span>{text}</span>
             </div>
-          ))}
+          )}
         </div>
 
         {/* CTA Buttons */}
@@ -52,8 +52,8 @@ const HeroSection = () => {
           </a>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
