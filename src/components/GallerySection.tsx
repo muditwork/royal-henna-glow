@@ -1,20 +1,18 @@
 import { useState } from "react";
 import { X } from "lucide-react";
-import heroImg from "@/assets/hero-bridal.jpg";
-import aboutImg from "@/assets/about-bridal.jpg";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
 
 const categories = ["All", "Bridal", "Arabic", "Rajasthani", "3D", "Festival"];
 
 const galleryImages = [
   { src: "/lovable-uploads/226686e6-147f-4c60-91ee-6478a05470b9.jpg", cat: "Bridal", alt: "Bridal mehndi design Delhi" },
-  { src: aboutImg, cat: "Bridal", alt: "Bridal henna art" },
-  { src: heroImg, cat: "Arabic", alt: "Arabic mehndi design" },
-  { src: aboutImg, cat: "Rajasthani", alt: "Rajasthani mehndi" },
-  { src: heroImg, cat: "3D", alt: "3D mehndi art" },
-  { src: aboutImg, cat: "Festival", alt: "Festival mehndi design" },
-  { src: heroImg, cat: "Bridal", alt: "Premium bridal mehndi" },
-  { src: aboutImg, cat: "Arabic", alt: "Arabic henna art Delhi" },
+  { src: "/lovable-uploads/e6324f05-affd-4540-bedb-224e1d2e497c.jpg", cat: "Bridal", alt: "Bridal henna art" },
+  { src: "/lovable-uploads/86d3c38b-4174-4be1-8b62-bbe1e96b97b5.jpg", cat: "Arabic", alt: "Arabic mehndi design" },
+  { src: "/lovable-uploads/789af5f0-ed9d-4680-a5a4-75e1a935749c.jpg", cat: "Rajasthani", alt: "Rajasthani mehndi" },
+  { src: "/lovable-uploads/89bc9522-47d6-41b1-9e21-6f5c97acbdf9.jpg", cat: "3D", alt: "3D mehndi art" },
+  { src: "/lovable-uploads/e6324f05-affd-4540-bedb-224e1d2e497c.jpg", cat: "Festival", alt: "Festival mehndi design" },
+  { src: "/lovable-uploads/86d3c38b-4174-4be1-8b62-bbe1e96b97b5.jpg", cat: "Bridal", alt: "Premium bridal mehndi" },
+  { src: "/lovable-uploads/789af5f0-ed9d-4680-a5a4-75e1a935749c.jpg", cat: "Arabic", alt: "Arabic henna art Delhi" },
 ];
 
 const GallerySection = () => {
