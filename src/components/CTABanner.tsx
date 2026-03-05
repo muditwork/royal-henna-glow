@@ -14,7 +14,7 @@ const CTABanner = () => (
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a href="#contact" className="btn-gold text-base">Book Bridal Mehndi</a>
-          <a href="tel:+919999999999" className="btn-outline-gold text-base border-gold-light text-gold-light hover:bg-gold-light hover:text-foreground flex items-center justify-center gap-2">
+          <a href="tel:+919838984387" className="btn-outline-gold text-base border-gold-light text-gold-light hover:bg-gold-light hover:text-foreground flex items-center justify-center gap-2">
             <Phone size={16} /> Call Now
           </a>
         </div>
